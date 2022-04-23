@@ -21,7 +21,7 @@ please issue if there's more mmd formats!
 import nimmikudance/pmx
 
 let myPmx = parsePMXFile("example.pmx")
-echo myPmx.vertices
+echo myPmx.header.modelName
 ```
 
 # version control
