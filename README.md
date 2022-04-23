@@ -18,9 +18,9 @@ please issue if there's more mmd formats!
 
 # how to use?
 ```nim
-import nmd/pmx
+import nimmikudance/pmx
 
-let myPmx = initPMXFile("example.pmx")
+let myPmx = parsePMXFile("example.pmx")
 echo myPmx.vertices
 ```
 
