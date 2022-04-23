@@ -61,3 +61,7 @@ i don't know what are better ways to state those,
 
 please issue on those typos or development related things!
 help is greatly appreciated!
+
+
+contact email (i don't look through them very often): aphkyle@gmail.com
+or you can contact me on discord, im aph#8103
