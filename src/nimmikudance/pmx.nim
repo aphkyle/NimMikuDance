@@ -13,7 +13,7 @@ import
   ]
 import private/[read]
 
-proc initPMXFile*(filePath: string): PMXFile =
+proc parsePMXFile*(filePath: string): PMXFile =
   doAssert likely(fileExists(filePath)), ".pmx file \"{filePath}\" does not exist"
   let stream = openFileStream(filePath)
   defer: close(stream)
