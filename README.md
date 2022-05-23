@@ -25,21 +25,16 @@ echo myPmx.header.modelName
 ```
 
 # version control
-version `0.0.0` is alpha (not stable yet)
+First digit for PMX\
+Second digit for PMD\
+Third for VMD\
 
-`0.1.x` should support all of pmx
+`0` = non-complete/ no support for such file extension\
+`1-5` = bug fixes\
+`6`  = full support for the file extension\
+`6+` = bug fixes\
 
-`1.x.x` should support pmd
-
-`2.x.x` should support vmd
-
-`3.x.x` should support javascript backend
-
-first x = major updates
-
-second x = +features
-
-third x = bug fix
+So `0.0.0` = non-complete/no support for all extensions listed above.
 
 ## how can I help?
 - send me a few samples of pmx 2.1 (contact me on nim's server, i'm aph#8103)
